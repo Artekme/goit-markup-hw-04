@@ -1,7 +1,7 @@
 :root {
   --SLATE: #434455;
   --LIGHT-SLATE: #8e8f99;
-  --WHITE: #fff;
+  --WHITE: #ffffff;
   --NAVY-BLUE: #2e2f42;
   --NAVY-BLUE-MODAL: #2e2f4266;
   --OCEAN: #404bbf;
@@ -628,7 +628,7 @@ li .filter-button:focus {
 
 .gallery-card:hover .overlay-text,
 .gallery-card:focus .overlay-text {
-  transform: translatey(0);
+  transform: translateY(0%);
 }
 
 .overlay p {
