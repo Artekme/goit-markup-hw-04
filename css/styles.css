@@ -280,8 +280,8 @@ header .logo {
 .modal-icon {
    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-icon:hover,
-.modal-icon:focus {
+.modal-close-button:hover .modal-icon,
+.modal-close-button:focus .modal-icon {
   fill: var(--WHITE);
 }
 
@@ -581,6 +581,11 @@ li .filter-button:focus {
 }
 .gallery-card a.link:hover,
 .gallery-card a.link:focus {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.gallery-card a.link:hover p.overlay-text,
+.gallery-card a.link:focus p.overlay-text {
   transform: translateY(0%);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
